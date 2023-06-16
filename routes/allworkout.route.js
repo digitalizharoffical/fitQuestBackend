@@ -58,7 +58,7 @@ allworkoutRoute.get("/all", async (req, res) => {
   
       const mergedData = data.flat();
   
-      res.status(200).json(mergedData);
+      res.status(200).json({all:mergedData});
     } catch (error) {
       res.status(400).json({ error: error.message });
     }
