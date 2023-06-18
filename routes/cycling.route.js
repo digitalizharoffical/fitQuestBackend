@@ -12,7 +12,7 @@ cyclingRoute.get("/",async(req,res)=>{
     }
 })
 
-cyclingRoute.use(adminAuth)
+// cyclingRoute.use(adminAuth)
 
 cyclingRoute.post("/create",async(req,res)=>{
     try {

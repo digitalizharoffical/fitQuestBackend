@@ -12,7 +12,7 @@ runningRoute.get("/",async(req,res)=>{
     }
 })
 
-runningRoute.use(adminAuth)
+// runningRoute.use(adminAuth)
 
 runningRoute.post("/create",async(req,res)=>{
     try {
